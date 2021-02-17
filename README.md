@@ -2,4 +2,4 @@
 Example Code for Bomb Lab Assembly
 
 ## Running
-Compile with make. Run different programs with gdb.
+Compile with make. The compiled binaries will have a .o suffix. Run the binaries with gdb.
