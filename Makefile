@@ -5,7 +5,7 @@
 # CC is generally used to specify your compiler.
 # and CFLAGS are used to specify the flags.
 CC := gcc
-CFLAGS := -g -O0 -fno-stack-protector -o
+CFLAGS := -g -O0 -fno-stack-protector -fno-omit-frame-pointer -o
 # These two lines make a list of every .c file in the current folder.
 # and a list with the same name of each .c file, but with a .o suffix.
 SRC_FILES := $(wildcard *.c)
